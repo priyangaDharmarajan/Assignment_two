@@ -1,136 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta http-equiv="Cache-Control" content="no-store" />
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="newcss.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      <link rel="stylesheet"  href="font-awesome-4.7.0/css/font-awesome.min.css"> 
-      <title>Bootstrap 101 Template</title>
+          <title>First BootStrap Page</title>
+          <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta http-equiv="Cache-Control" content="no-store" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 
-  </head>
+          <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+          <!-- <link rel="stylesheet" href="includes/js/script.js"> -->
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <link rel="stylesheet" type="text/css" href="newcss.css">
+        
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+          <link rel="stylesheet"  href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+                <link rel="stylesheet"  href="font-awesome-4.7.0/css1/font-awesome.min.css">
+                <link href="https://fonts.googleapis.com/css?family=Peddana" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">
+
+
+        
+    
+</head>
+
   <body>
     <div class="navbar navbar-fixed-top navcolor">
-    <div class="container">
+      <div class="container">
+        <div>
+          <h1>TRAVELLERS.COM</h1>
+        </div>
     <div>
-   <h1>HOTELS.COM</h1>
-    </div>
-    <div>
-    <ul class="nav navbar-nav spacealign ">
-    <li>
-      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Sign In & Accounts</button>
-
-<!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Sign In</h4>
+      <ul class="nav navbar-nav spacealign ">
+          <li>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Sign In & Accounts</button>
+                <div id="myModal" class="modal fade" role="dialog"><!--modal start-->
+                <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Sign In</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                    <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+                     </div>
+                    <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                    <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+                    </div>
+                    <div class="input-group">
+                    <span class="input-group-addon">Text</span>
+                    <input id="msg" type="text" class="form-control" name="msg" placeholder="Additional Info">
+                    </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+              </div>
+              </div>
+              </div>
+          </li><!-- sign in modal ends -->
+        </ul>       
       </div>
-      <div class="modal-body">
-        <form>
-  <div class="input-group">
-    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-    <input id="email" type="text" class="form-control" name="email" placeholder="Email">
-  </div>
-  <div class="input-group">
-    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-    <input id="password" type="password" class="form-control" name="password" placeholder="Password">
-  </div>
-  <div class="input-group">
-    <span class="input-group-addon">Text</span>
-    <input id="msg" type="text" class="form-control" name="msg" placeholder="Additional Info">
-  </div>
-</form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-    </li><!-- sign in modal ends -->
-    <li>
-      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">CONTACT AS</button>
-
-
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Contact details</h4>
-      </div>
-      <div class="modal-body">
-        <p></p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-    </li><!-- Contact modal ends -->
-    </ul>
-            
-
-    
-
-    </div>
     </div><!-- end of container-->
     </div><!-- end of nav bar-->
-    <article>
-   <div class="span imgwid" style="background-image: url('images/bg.jpg');">
- 
+    
+<article style="background-image: url('images/bg.jpg');" >
+   <div  >
+   <h3> Search</h3>
       <div class="well">
        <table class="table table-striped tabsize">
-         <tr>
-         <th colspan="2">SEARCH</th>
-         </tr>
-         <tr>
-         <td>Location</td>
-         <td><input type="text" name="loc"></td>
-         </tr>
           <tr>
-         <td>Check In</td>
-         <td><input type="text" name="date"></td>
-         </tr>
+            <th colspan="2">SEARCH</th>
+          </tr>
           <tr>
-         <td>Check Out</td>
-         <td><input type="text" name="date1"></td>
-         </tr>
-         <tr>
-         <td>No of Rooms</td>
-         <td><input type="text" name="room"></td>
-         </tr>
-         <tr>
-         
-         <td colspan="2"><input type="button" name="room" value="Go"></td>
-         </tr>
+            <td>Location</td>
+            <td><input type="text" name="loc"> <i class="fa fa-map-marker" aria-hidden="true"></i></td> 
+          </tr>
+          <tr>
+            <td>Check In</td>
+            <td><input type="text" name="date"> <i class="fa fa-calendar" aria-hidden="true"></i></td> 
+          </tr>
+          <tr>
+            <td>Check Out</td>
+            <td><input type="text" name="date1"> <i class="fa fa-calendar" aria-hidden="true"></i></td> 
+          </tr>
+          <tr>
+            <td>No of Rooms</td>
+            <td><input type="text" name="room"> <i class="fa fa-home" aria-hidden="true"></i></td> 
 
-       </table>
+          </tr>
+          <tr>         
+            <td colspan="2"><input type="button" name="room" value="Go"></td>
+          </tr>
+        </table>
        </div>
-</div>
-      </article> >
-      <section>
-        <div class="container-fluid parent">
-    
-</div>
+      </div>
 
-
-<div class="container wrapper">
-  <div class="row">
+<section>
+    <div class="container-fluid parent">
+    </div>
+      <div class="container wrapper">
+     <div class="row">
     <div class="col-12-xs child">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" >
   <!-- Indicators -->
@@ -147,28 +125,33 @@
         <div class="col-sm-4">
           <a class="thumbnail" href="#">
             <img src="images/one.jpg" alt="No image found" /></a>
+            <div class="panel panel-danger">
           <h3>DEALS WAREHOUSE</h3>
           <P> Save upto 10% wuth coupons</P>
           <a href="#">Shop now</a>
-                    
+            </div>        
         </div>
         <div class="col-sm-4">
           <a class="thumbnail" href="#">
             <img src="images/two.jpg" alt="No image found" />
          
           </a>
+          <div class="panel panel-danger">
            <h3>You Heard us Right</h3>
           <P> All deals at 50% Off</P>
           <a href="#">Book Now</a>
+          </div>
         </div>
         <div class="col-sm-4">
           <a class="thumbnail" href="#">
             <img src="images/three.jpg" alt="no image found" />
           
           </a>
+          <div class="panel panel-danger">
            <h3>IRRESISTIBLE DEALs</h3>
           <P> Grap yourself bargain today</P>
           <a href="#">strat saving</a>
+        </div>
         </div>
       </div>
     </div>
@@ -177,25 +160,30 @@
         <div class="col-sm-4">
           <a class="thumbnail" href="#">
             <img src="images/four.jpg" alt="no image found" /></a>
+            <div class="panel panel-danger">
            <h3>Great deals near you</h3>
           <P> Pay less when you take short break</P>
           <a href="#">View deals</a>
-                  
+           </div>       
         </div>
         <div class="col-sm-4">
           <a class="thumbnail" href="#">
-            <img src="images/five.jpg" alt="no image found" /></a>                    
+            <img src="images/five.jpg" alt="no image found" /></a> 
+            <div class="panel panel-danger">                   
            <h3>Resort Relaxation</h3>
           <P> Enjoy the sun sea and sand</P>
           <a href="#">Book now</a>
+          </div>
         </div> 
         <div class="col-sm-4">
           <a class="thumbnail" href="#">
             <img src="images/six.jpg" alt="no image found" /></a>
+            <div class="panel panel-danger">
                  
          <h3>GET THE APP</h3>
           <P> Book on the go with your mobile</P>
           <a href="#">Learn more</a>
+          </div>
            </div>         
       </div>
     </div>
@@ -214,96 +202,19 @@
     </div>
   </div>
 </div>
-<section>
-<br>
-<h2>INTERNATIONAL GROUP TOUR</h2>
-<div class="row">
-  <div class="col-sm-4 top"><div class="row">
-  <div class="col-sm-6 col-md-4 top">
-    <div class="thumbnail thumb1">
-      <img src="images/1.jpg" alt="no image found" class="imgallign">
-      <div class="caption">
-         <h3>SHIMLA</h3>
-         <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="SHIMLA" data-content="You Have Successfully booked Have  happy holidays">Book Now</button>
-        
-        <script>
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover(); 
-});
-</script>
-      </div>
-    </div>
-  </div>
-</div>
-</div><!--image end-->
-  <div class="col-sm-4 top"><div class="row">
-  <div class="col-sm-6 col-md-4 top">
-    <div class="thumbnail thumb1">
-      <img src="images/kerala1.jpg" alt="no image found" class="imgallign">
-      <div class="caption">
-       <h3>KERALA</h3>
-          <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="KERALA" data-content="You Have Successfully booked Have  happy holidays">Book Now</button>
-        
-        <script>
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover(); 
-});
-</script>
-        
-        
-      </div>
-    </div>
-  </div>
-</div>
-</div><!--image end-->
-  <div class="col-sm-4 top"><div class="row">
-  <div class="col-sm-6 col-md-4 top">
-    <div class="thumbnail thumb1">
-      <img src="images/3.jpg" alt="no image found" class="imgallign">
-      <div class="caption">
-       <h3>MAURITIUS</h3>
-         <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="MAURITIUS" data-content="You Have Successfully booked Have  happy holidays">Book Now</button>
-        
-        <script>
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover(); 
-});
-</script>
+</section>
+</article> 
+<section class="container">
 
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-<!--first row end-->
+<h2>GROUP</h2>
 <div class="row">
-  <div class="col-sm-4 top"><div class="row">
-  <div class="col-sm-6 col-md-4 top">
+  <div class="col-sm-4 "><div class="row">
+  <div class="col-sm-6 col-md-4 ">
     <div class="thumbnail thumb1">
-      <img src="images/4.jpg" alt="no image found" class="imgallign">
+      <img src="images/swiss.jpg" alt="no image found" class="imgallign">
       <div class="caption">
-       <h3>SINGAPUR</h3>
-         <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="SINGAPUR" data-content="You Have Successfully booked Have  happy holidays">Book Now</button>
-        
-        <script>
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover(); 
-});
-</script>
-        
-      </div>
-    </div>
-  </div>
-</div>
-</div><!--image end-->
-  <div class="col-sm-4 top"><div class="row">
-  <div class="col-sm-6 col-md-4 top">
-    <div class="thumbnail thumb1">
-      <img src="images/5.jpg" alt="no image found" class="imgallign">
-      <div class="caption">
-         <h3>BANGKOK</h3>
-          <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="BANGKOK" data-content="You Have Successfully booked Have  happy holidays">Book Now</button>
+         <h3>SWISS</h3>
+         <button type="button" class="btn btn-danger">BOOK NOW</button>
         
         
       </div>
@@ -311,38 +222,222 @@ $(document).ready(function(){
   </div>
 </div>
 </div><!--image end-->
-  <div class="col-sm-4 top"><div class="row">
-  <div class="col-sm-6 col-md-4 top">
+  <div class="col-sm-4 "><div class="row">
+  <div class="col-sm-6 col-md-4">
     <div class="thumbnail thumb1">
-      <img src="images/6.jpg" alt="no image found" class="imgallign">
+      <img src="images/Dubai.jpg" alt="no image found" class="imgallign">
       <div class="caption">
-      <h3>DARJEELING</h3>
-          <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="DARJEELING" data-content="You Have Successfully booked Have  happy holidays">Book Now</button>
+       <h3>DUBAI</h3>
+           <button type="button" class="btn btn-danger">BOOK NOW</button>
         
-        <script>
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover(); 
-});
-</script>
+       
+        
         
       </div>
     </div>
   </div>
 </div>
-</div>
-</div>
-
- 
+</div><!--image end-->
+  <div class="col-sm-4 "><div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail thumb1">
+      <img src="images/Manali.jpg" alt="no image found" class="imgallign">
+      <div class="caption">
+       <h3>MANALI</h3>
+          <button type="button" class="btn btn-danger">BOOK NOW</button>
+        
+        
       
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<button type="button" class="btn btn-success btallign">VIEW MORE</button>
+<!--first row end-->
+<h2>OFFERS</h2>
+<div class="row">
+  <div class="col-sm-4 "><div class="row">
+  <div class="col-sm-6 col-md-4 ">
+    <div class="thumbnail thumb1">
+      <img src="images/of1.jpg" alt="no image found" class="imgallign">
+      <div class="caption">
+             <h3>Kangaroo Island </h3>
+         valid till may 31 2017
+         </div>
+        
+        
+      
+    </div>
+  </div>
+</div>
+</div><!--image end-->
+  <div class="col-sm-4 top"><div class="row">
+  <div class="col-sm-6 col-md-4 ">
+    <div class="thumbnail thumb1">
+      <img src="images/of2.jpg" alt="no image found" class="imgallign">
+      <div class="caption">
+       <h3>Bhutan Package</h3>
+         valid till may 28 2017  
+        </div>
+    </div>
+  </div>
+</div>
+</div><!--image end-->
+  <div class="col-sm-4 "><div class="row">
+  <div class="col-sm-6 col-md-4 ">
+    <div class="thumbnail thumb1">
+      <img src="images/of3.jpg" alt="no image found" class="imgallign">
+      <div class="caption">
+       <h3>Save upto 15,000</h3>
+        valid till may 28 2017       
+      
+     </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<button type="button" class="btn btn-success btallign">VIEW MORE</button>
+<h2>ADVENTURES HOLIDAY</h2>
+<div class="row">
+  <div class="col-sm-4 "><div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail thumb1">
+      <img src="images/a1.jpg" alt="no image found" class="imgallign">
+      <div class="caption">
+             <h3>ROOPKUND TRUK </h3>
+         10,500 per person
+         </div>
+        
+        
+      
+    </div>
+  </div>
+</div>
+</div><!--image end-->
+  <div class="col-sm-4 top"><div class="row">
+  <div class="col-sm-6 col-md-4 ">
+    <div class="thumbnail thumb1">
+      <img src="images/a2.jpg" alt="no image found" class="imgallign">
+      <div class="caption">
+       <h3>EVEREST BASE CAMP TRUCK</h3>
+          38,500 per person
+        </div>
+    </div>
+  </div>
+</div>
+</div><!--image end-->
+  <div class="col-sm-4 top"><div class="row">
+  <div class="col-sm-6 col-md-4 ">
+    <div class="thumbnail thumb1">
+      <img src="images/a3.jpg" alt="no image found" class="imgallign">
+      <div class="caption">
+       <h3>MANALI-LEH CYCLING</h3>
+        45,500 per person
+     </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<button type="button" class="btn btn-success btallign">VIEW MORE</button>
       </section>
-      <footer class="ft" >
-      <p>SAVE TIME SAVE MONEY!!!</p>
-      <p>Sign up & we will send the best deals</p>
-      <p><input type="text" name="in"><input type="button" name="" value="SUSCRIBE"></p>
-      <p><div class="checkbox"></p>
-  <P><label><input type="checkbox" value="">Sent me a link to get free hotels.com app</label>
-</div></p>
-      </footer><
+      <section class="container">
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="panel panel-default">
+  <!-- Default panel contents -->
+              <div class="panel-heading"><h3>Top International Holiday Destinations</h3></div>
+
+  <!-- Table -->
+              <table class="table">
+              <tr>
+              <td>Thailand</td>
+              <td>Malidives</td>
+              <td>Europe</td>
+              </tr>
+              <tr>
+              <td>Dubai</td>
+              <td>Bali</td>
+              <td>Marutius</td>
+              </tr>
+              <tr>
+              <td>Malaysia</td>
+              <td>Singapore</td>
+              <td>Phuket</td>
+              </tr>
+              <tr>
+              <td>Hong kong</td>
+              <td>Nepal</td>
+              <td>Australia</td>
+              </tr>
+              <tr>
+              <td>Egypt</td>
+              <td>Greece</td>
+              <td>Turkey</td>
+              </tr>
+              <tr>
+              <td>South Africa</td>
+              
+              </tr>
+    
+              </table>
+              </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading"><h3>Top Holiday Destinations in India</h3></div>
+
+  <!-- Table -->
+  <table class="table">
+    <tr>
+              <td>Ladakh</td>
+              <td>Kerala</td>
+              <td>Goa</td>
+              </tr>
+              <tr>
+              <td>Shimla</td>
+              <td>Manali</td>
+              <td>Rajasthan</td>
+              </tr>
+              <tr>
+              <td>Kashmir</td>
+              <td>Darjeeling</td>
+              <td>Andaman</td>
+              </tr>
+              <tr>
+              <td>Arunachal</td>
+              <td>Assam</td>
+              <td>Megalaya</td>
+              </tr>
+              <tr>
+              <td>Sikim</td>
+              <td>Munnar</td>
+              <td>Rajasthan</td>
+              </tr>
+              <tr>
+              <td>Goa</td>
+              <td></td>
+              <td></td>
+              </tr>
+    
+  </table>
+</div>
+          </div>
+        </div>
+      </section>
+     <footer>
+      <div class="panel panel-default container">
+         <img src="images/pay.jpg" alt="no images found">
+         <img src="images/visa.png" alt="no images found">
+         <a href="travel.html"> To Get Our App</a>
+       </div>
+     </footer>
   
     </body>
     </html>
